@@ -4,8 +4,6 @@ import cities from "./cities.json";
 import Input from "./Input";
 
 function App() {
-  
-
   const [inputValue, setInputValue] = useState("");
   const [hint, setHint] = useState([]);
 
@@ -23,13 +21,9 @@ function App() {
     <>
       <h1>Search The City</h1>
 
-      <Input
-        handleChange={handelChange}
-        hint={hint}
-        inputValue={inputValue}
-      />
+      <Input handleChange={handelChange} hint={hint} inputValue={inputValue} />
     </>
   );
 }
 
-export default App
+export default App;
