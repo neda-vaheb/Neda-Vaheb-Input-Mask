@@ -18,13 +18,11 @@ function App() {
     }
   };
   return (
-    <>
     <div className="container">
       <h1>Search The City</h1>
 
       <Input handleChange={handelChange} hint={hint} />
-      </div>
-    </>
+    </div>
   );
 }
 
