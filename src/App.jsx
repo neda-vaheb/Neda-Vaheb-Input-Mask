@@ -21,7 +21,7 @@ function App() {
     <>
       <h1>Search The City</h1>
 
-      <Input handleChange={handelChange} hint={hint} inputValue={inputValue} setInputValue={setInputValue} />
+      <Input handleChange={handelChange} hint={hint} />
     </>
   );
 }
